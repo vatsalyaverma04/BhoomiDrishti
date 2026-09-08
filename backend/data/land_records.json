@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "LR-MP-2026-001",
+    "ulpin": "ULPIN-MA-26001",
+    "title": "खसरा / बी-1 नकल (Record of Rights)",
+    "document_type": "Khasra / Khatoni",
+    "state": "Madhya Pradesh",
+    "district": "Dewas",
+    "tehsil": "Tonk Khurd",
+    "village": "Alankheda",
+    "pargana": "Sonkatch",
+    "patwari_halka": "14",
+    "khasra_number": "104/2",
+    "khata_number": "58",
+    "khewat_number": "12",
+    "area_value": 1.45,
+    "area_unit": "Hectares",
+    "standardized_hectares": 1.45,
+    "land_classification": "Chahi (Irrigated Agricultural)",
+    "soil_type": "Medium Black (Kali Mitti)",
+    "primary_owner": "Ramdayal s/o Kanhaiyalal",
+    "verification_status": "FLAGGED_ERROR",
+    "verified_by": "Tehsildar",
+    "geom": null,
+    "gis_parcel": {
+      "center": [
+        23.0821,
+        76.1524
+      ],
+      "coordinates": [
+        [
+          23.082682,
+          76.152677
+        ],
+        [
+          23.081577,
+          76.152622
+        ],
+        [
+          23.081473,
+          76.152328
+        ],
+        [
+          23.081977,
+          76.151685
+        ],
+        [
+          23.082741,
+          76.152057
+        ],
+        [
+          23.082682,
+          76.152677
+        ]
+      ],
+      "area_hectares": 1.45,
+      "area_sq_meters": 14500,
+      "adjacent_parcels": [
+        {
+          "center": [
+            23.083228,
+            76.15307
+          ],
+          "khasra_no": "104/2/1",
+          "coordinates": [
+            [
+              23.083768,
+              76.153483
+            ],
+            [
+              23.083354,
+              76.153696
+            ],
+            [
+              23.082928,
+              76.153557
+            ],
+            [
+              23.083054,
+              76.152605
+            ],
+            [
+              23.083768,
+              76.153483
+            ]
+          ]
+        },
+        {
+          "center": [
+            23.081244,
+            76.153442
+          ],
+          "khasra_no": "1043",
+          "coordinates": [
+            [
+              23.081848,
+              76.153565
+            ],
+            [
+              23.081755,
+              76.153846
+            ],
+            [
+              23.081405,
+              76.154097
+            ],
+            [
+              23.081712,
+              76.153343
+            ],
+            [
+              23.081848,
+              76.153565
+            ]
+          ]
+        }
+      ],
+      "perimeter_meters": 490.9
+    },
+    "confidence_scores": {
+      "area": 0.94,
+      "state": 0.99,
+      "tehsil": 0.96,
+      "village": 0.95,
+      "district": 0.98,
+      "co_owners": [],
+      "mutations": 0.86,
+      "landowners": 0.89,
+      "encumbrances": [
+        {
+          "date": "2020-03-12",
+          "type": "Bank Mortgage / Kisan Credit Card",
+          "amount": "₹2,00,000",
+          "status": "Active",
+          "bank_name": "State Bank of India, Tonk Khurd"
+        }
+      ],
+      "khata_number": 0.97,
+      "khasra_number": 0.98,
+      "primary_owner": 0.92,
+      "classification": 0.91,
+      "geo_coordinates": {
+        "lat": 23.0821,
+        "lng": 76.1524
+      },
+      "validation_report": {
+        "status": "VALIDATED",
+        "rules_total": 5,
+        "rule_results": [
+          {
+            "rule": "RULE_KHASRA_SYNTAX",
+            "passed": true,
+            "message": "Valid Khasra format",
+            "severity": "INFO",
+            "description": "Standard Khasra/Survey/Gat number format validation"
+          },
+          {
+            "rule": "RULE_OWNER_SHARES_100_PCT",
+            "value": "100.0%",
+            "passed": true,
+            "message": "Co-owner shares sum perfectly to 100.0%",
+            "severity": "INFO",
+            "description": "Co-owner share fraction sum matches 100%"
+          },
+          {
+            "rule": "RULE_AREA_CONSISTENCY",
+            "passed": true,
+            "message": "Valid parcel area: 1.45 Hectares (~1.45 Hectares)",
+            "severity": "INFO",
+            "description": "Parcel area threshold and unit sanity check",
+            "standardized_hectares": 1.45
+          },
+          {
+            "rule": "RULE_DUPLICATE_CHECK",
+            "passed": true,
+            "message": "No duplicate record found in LRMS database",
+            "severity": "INFO",
+            "description": "Cross-database duplicate parcel detection"
+          },
+          {
+            "rule": "RULE_ENCUMBRANCE_ALERT",
+            "passed": true,
+            "message": "Notice: Active bank encumbrance/mortgage noted on this parcel",
+            "severity": "WARNING",
+            "description": "Active bank loan or mortgage lien notice"
+          }
+        ],
+        "rules_passed": 5,
+        "status_label": "Fully Validated",
+        "confidence_summary": {
+          "is_high_quality": true,
+          "overall_confidence": 94.1,
+          "low_confidence_fields": []
+        }
+      }
+    },
+    "created_at": "2026-09-08T09:15:05.360159+00:00",
+    "last_updated_at": "2026-09-08T12:45:23+00:00",
+    "land_type": "Chahi (Irrigated Agricultural)",
+    "co_owners": [
+      {
+        "id": 4,
+        "record_id": "LR-MP-2026-001",
+        "name": "Ramdayal s/o Kanhaiyalal",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ],
+    "encumbrances": [
+      {
+        "date": "2020-03-12",
+        "type": "Bank Mortgage / Kisan Credit Card",
+        "amount": "₹2,00,000",
+        "status": "Active",
+        "bank_name": "State Bank of India, Tonk Khurd"
+      }
+    ],
+    "geo_coordinates": {
+      "lat": 23.0821,
+      "lng": 76.1524
+    },
+    "validation_report": {
+      "status": "VALIDATED",
+      "rules_total": 5,
+      "rule_results": [
+        {
+          "rule": "RULE_KHASRA_SYNTAX",
+          "passed": true,
+          "message": "Valid Khasra format",
+          "severity": "INFO",
+          "description": "Standard Khasra/Survey/Gat number format validation"
+        },
+        {
+          "rule": "RULE_OWNER_SHARES_100_PCT",
+          "value": "100.0%",
+          "passed": true,
+          "message": "Co-owner shares sum perfectly to 100.0%",
+          "severity": "INFO",
+          "description": "Co-owner share fraction sum matches 100%"
+        },
+        {
+          "rule": "RULE_AREA_CONSISTENCY",
+          "passed": true,
+          "message": "Valid parcel area: 1.45 Hectares (~1.45 Hectares)",
+          "severity": "INFO",
+          "description": "Parcel area threshold and unit sanity check",
+          "standardized_hectares": 1.45
+        },
+        {
+          "rule": "RULE_DUPLICATE_CHECK",
+          "passed": true,
+          "message": "No duplicate record found in LRMS database",
+          "severity": "INFO",
+          "description": "Cross-database duplicate parcel detection"
+        },
+        {
+          "rule": "RULE_ENCUMBRANCE_ALERT",
+          "passed": true,
+          "message": "Notice: Active bank encumbrance/mortgage noted on this parcel",
+          "severity": "WARNING",
+          "description": "Active bank loan or mortgage lien notice"
+        }
+      ],
+      "rules_passed": 5,
+      "status_label": "Fully Validated",
+      "confidence_summary": {
+        "is_high_quality": true,
+        "overall_confidence": 94.1,
+        "low_confidence_fields": []
+      }
+    },
+    "landowners": [
+      {
+        "id": 4,
+        "record_id": "LR-MP-2026-001",
+        "name": "Ramdayal s/o Kanhaiyalal",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ]
+  },
+  {
+    "id": "LR-MH-2026-002",
+    "ulpin": "ULPIN-MA-26002",
+    "title": "गाव नमुना सात-बारा (7/12 Utara)",
+    "document_type": "7/12 Saat-Bara",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "tehsil": "Haveli",
+    "village": "Wagholi",
+    "pargana": "Haveli Sub-division",
+    "patwari_halka": "Talathi Sajja 03",
+    "khasra_number": "412/1",
+    "khata_number": "129",
+    "khewat_number": "--",
+    "area_value": 0.82,
+    "area_unit": "Hectares",
+    "standardized_hectares": 0.82,
+    "land_classification": "Jirayat (Dry Crop Agricultural)",
+    "soil_type": "Red Clay Loam",
+    "primary_owner": "Prakash Tukaram Jadhav",
+    "verification_status": "VALIDATED",
+    "verified_by": "Tehsildar / SDO",
+    "geom": null,
+    "gis_parcel": {
+      "center": [
+        18.5793,
+        73.9823
+      ],
+      "coordinates": [
+        [
+          18.579784,
+          73.982368
+        ],
+        [
+          18.578936,
+          73.982403
+        ],
+        [
+          18.57953,
+          73.982026
+        ],
+        [
+          18.579568,
+          73.982001
+        ],
+        [
+          18.579849,
+          73.982278
+        ],
+        [
+          18.579784,
+          73.982368
+        ]
+      ],
+      "area_hectares": 0.82,
+      "area_sq_meters": 8200.0,
+      "adjacent_parcels": [
+        {
+          "center": [
+            18.580148,
+            73.982789
+          ],
+          "khasra_no": "412/1/1",
+          "coordinates": [
+            [
+              18.57984,
+              73.982517
+            ],
+            [
+              18.579908,
+              73.982421
+            ],
+            [
+              18.580398,
+              73.982488
+            ],
+            [
+              18.58062,
+              73.982695
+            ],
+            [
+              18.57984,
+              73.982517
+            ]
+          ]
+        },
+        {
+          "center": [
+            18.578656,
+            73.98306
+          ],
+          "khasra_no": "4122",
+          "coordinates": [
+            [
+              18.57862,
+              73.983433
+            ],
+            [
+              18.578293,
+              73.983212
+            ],
+            [
+              18.578228,
+              73.982948
+            ],
+            [
+              18.578688,
+              73.982546
+            ],
+            [
+              18.57862,
+              73.983433
+            ]
+          ]
+        }
+      ],
+      "perimeter_meters": 369.2
+    },
+    "confidence_scores": {
+      "area": 0.92,
+      "state": 0.99,
+      "tehsil": 0.95,
+      "village": 0.96,
+      "district": 0.97,
+      "co_owners": [],
+      "mutations": 0.84,
+      "landowners": 0.88,
+      "encumbrances": [
+        {
+          "date": "2021-06-20",
+          "type": "Crop Loan Lien",
+          "amount": "₹1,50,000",
+          "status": "Active",
+          "bank_name": "Bank of Maharashtra, Wagholi Branch"
+        }
+      ],
+      "khata_number": 0.94,
+      "khasra_number": 0.96,
+      "primary_owner": 0.9,
+      "classification": 0.93,
+      "geo_coordinates": {
+        "lat": 18.5793,
+        "lng": 73.9823
+      },
+      "validation_report": {
+        "status": "VALIDATED",
+        "rules_total": 5,
+        "rule_results": [
+          {
+            "rule": "RULE_KHASRA_SYNTAX",
+            "passed": true,
+            "message": "Valid Khasra format",
+            "severity": "INFO",
+            "description": "Standard Khasra/Survey/Gat number format validation"
+          },
+          {
+            "rule": "RULE_OWNER_SHARES_100_PCT",
+            "value": "100.0%",
+            "passed": true,
+            "message": "Co-owner shares sum perfectly to 100.0%",
+            "severity": "INFO",
+            "description": "Co-owner share fraction sum matches 100%"
+          },
+          {
+            "rule": "RULE_AREA_CONSISTENCY",
+            "passed": true,
+            "message": "Valid parcel area: 0.82 Hectares (~0.82 Hectares)",
+            "severity": "INFO",
+            "description": "Parcel area threshold and unit sanity check",
+            "standardized_hectares": 0.82
+          },
+          {
+            "rule": "RULE_DUPLICATE_CHECK",
+            "passed": true,
+            "message": "No duplicate record found in LRMS database",
+            "severity": "INFO",
+            "description": "Cross-database duplicate parcel detection"
+          },
+          {
+            "rule": "RULE_ENCUMBRANCE_ALERT",
+            "passed": true,
+            "message": "Notice: Active bank encumbrance/mortgage noted on this parcel",
+            "severity": "WARNING",
+            "description": "Active bank loan or mortgage lien notice"
+          }
+        ],
+        "rules_passed": 5,
+        "status_label": "Fully Validated",
+        "confidence_summary": {
+          "is_high_quality": true,
+          "overall_confidence": 93.1,
+          "low_confidence_fields": []
+        }
+      }
+    },
+    "created_at": "2026-09-08T09:15:05.360159+00:00",
+    "last_updated_at": "2026-09-08T12:45:23+00:00",
+    "land_type": "Jirayat (Dry Crop Agricultural)",
+    "co_owners": [
+      {
+        "id": 5,
+        "record_id": "LR-MH-2026-002",
+        "name": "Prakash Tukaram Jadhav",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ],
+    "encumbrances": [
+      {
+        "date": "2021-06-20",
+        "type": "Crop Loan Lien",
+        "amount": "₹1,50,000",
+        "status": "Active",
+        "bank_name": "Bank of Maharashtra, Wagholi Branch"
+      }
+    ],
+    "geo_coordinates": {
+      "lat": 18.5793,
+      "lng": 73.9823
+    },
+    "validation_report": {
+      "status": "VALIDATED",
+      "rules_total": 5,
+      "rule_results": [
+        {
+          "rule": "RULE_KHASRA_SYNTAX",
+          "passed": true,
+          "message": "Valid Khasra format",
+          "severity": "INFO",
+          "description": "Standard Khasra/Survey/Gat number format validation"
+        },
+        {
+          "rule": "RULE_OWNER_SHARES_100_PCT",
+          "value": "100.0%",
+          "passed": true,
+          "message": "Co-owner shares sum perfectly to 100.0%",
+          "severity": "INFO",
+          "description": "Co-owner share fraction sum matches 100%"
+        },
+        {
+          "rule": "RULE_AREA_CONSISTENCY",
+          "passed": true,
+          "message": "Valid parcel area: 0.82 Hectares (~0.82 Hectares)",
+          "severity": "INFO",
+          "description": "Parcel area threshold and unit sanity check",
+          "standardized_hectares": 0.82
+        },
+        {
+          "rule": "RULE_DUPLICATE_CHECK",
+          "passed": true,
+          "message": "No duplicate record found in LRMS database",
+          "severity": "INFO",
+          "description": "Cross-database duplicate parcel detection"
+        },
+        {
+          "rule": "RULE_ENCUMBRANCE_ALERT",
+          "passed": true,
+          "message": "Notice: Active bank encumbrance/mortgage noted on this parcel",
+          "severity": "WARNING",
+          "description": "Active bank loan or mortgage lien notice"
+        }
+      ],
+      "rules_passed": 5,
+      "status_label": "Fully Validated",
+      "confidence_summary": {
+        "is_high_quality": true,
+        "overall_confidence": 93.1,
+        "low_confidence_fields": []
+      }
+    },
+    "landowners": [
+      {
+        "id": 5,
+        "record_id": "LR-MH-2026-002",
+        "name": "Prakash Tukaram Jadhav",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ]
+  },
+  {
+    "id": "LR-UP-2026-003",
+    "ulpin": "ULPIN-UT-26003",
+    "title": "उद्धरण खतौनी (Record of Rights Jamabandi)",
+    "document_type": "Khasra / Khatoni",
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "tehsil": "Bakshi Ka Talab",
+    "village": "Bhitehra",
+    "pargana": "Mahona",
+    "patwari_halka": "Lekhpal Kshetra 08",
+    "khasra_number": "287/1",
+    "khata_number": "84",
+    "khewat_number": "19",
+    "area_value": 2.12,
+    "area_unit": "Hectares",
+    "standardized_hectares": 2.12,
+    "land_classification": "Barani (Unirrigated Farmland)",
+    "soil_type": "Alluvial Gangetic Soil",
+    "primary_owner": "Ram Autar s/o Shiv Prasad",
+    "verification_status": "VALIDATED",
+    "verified_by": "Tehsildar / SDO",
+    "geom": null,
+    "gis_parcel": {
+      "center": [
+        26.98,
+        80.92
+      ],
+      "coordinates": [
+        [
+          26.980862,
+          80.920074
+        ],
+        [
+          26.980692,
+          80.920576
+        ],
+        [
+          26.979703,
+          80.920743
+        ],
+        [
+          26.979224,
+          80.91987
+        ],
+        [
+          26.979143,
+          80.919808
+        ],
+        [
+          26.980862,
+          80.920074
+        ]
+      ],
+      "area_hectares": 2.12,
+      "area_sq_meters": 21200.0,
+      "adjacent_parcels": [
+        {
+          "center": [
+            26.981364,
+            80.920836
+          ],
+          "khasra_no": "287/1/1",
+          "coordinates": [
+            [
+              26.981434,
+              80.921664
+            ],
+            [
+              26.980621,
+              80.920953
+            ],
+            [
+              26.981256,
+              80.920242
+            ],
+            [
+              26.981805,
+              80.920097
+            ],
+            [
+              26.981434,
+              80.921664
+            ]
+          ]
+        },
+        {
+          "center": [
+            26.978965,
+            80.9213
+          ],
+          "khasra_no": "2872",
+          "coordinates": [
+            [
+              26.979448,
+              80.921763
+            ],
+            [
+              26.979372,
+              80.922041
+            ],
+            [
+              26.978742,
+              80.920453
+            ],
+            [
+              26.979417,
+              80.920757
+            ],
+            [
+              26.979448,
+              80.921763
+            ]
+          ]
+        }
+      ],
+      "perimeter_meters": 593.6
+    },
+    "confidence_scores": {
+      "area": 0.9,
+      "state": 0.98,
+      "tehsil": 0.94,
+      "village": 0.93,
+      "district": 0.96,
+      "co_owners": [],
+      "mutations": 0.82,
+      "landowners": 0.91,
+      "encumbrances": [],
+      "khata_number": 0.92,
+      "khasra_number": 0.95,
+      "primary_owner": 0.93,
+      "classification": 0.88,
+      "geo_coordinates": {
+        "lat": 26.98,
+        "lng": 80.92
+      },
+      "validation_report": {
+        "status": "VALIDATED",
+        "rules_total": 4,
+        "rule_results": [
+          {
+            "rule": "RULE_KHASRA_SYNTAX",
+            "passed": true,
+            "message": "Valid Khasra format",
+            "severity": "INFO",
+            "description": "Standard Khasra/Survey/Gat number format validation"
+          },
+          {
+            "rule": "RULE_OWNER_SHARES_100_PCT",
+            "value": "100.0%",
+            "passed": true,
+            "message": "Co-owner shares sum perfectly to 100.0%",
+            "severity": "INFO",
+            "description": "Co-owner share fraction sum matches 100%"
+          },
+          {
+            "rule": "RULE_AREA_CONSISTENCY",
+            "passed": true,
+            "message": "Valid parcel area: 2.12 Hectares (~2.12 Hectares)",
+            "severity": "INFO",
+            "description": "Parcel area threshold and unit sanity check",
+            "standardized_hectares": 2.12
+          },
+          {
+            "rule": "RULE_DUPLICATE_CHECK",
+            "passed": true,
+            "message": "No duplicate record found in LRMS database",
+            "severity": "INFO",
+            "description": "Cross-database duplicate parcel detection"
+          }
+        ],
+        "rules_passed": 4,
+        "status_label": "Fully Validated",
+        "confidence_summary": {
+          "is_high_quality": true,
+          "overall_confidence": 92.0,
+          "low_confidence_fields": []
+        }
+      }
+    },
+    "created_at": "2026-09-08T09:15:05.360159+00:00",
+    "last_updated_at": "2026-09-08T12:45:23+00:00",
+    "land_type": "Barani (Unirrigated Farmland)",
+    "co_owners": [
+      {
+        "id": 6,
+        "record_id": "LR-UP-2026-003",
+        "name": "Ram Autar s/o Shiv Prasad",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ],
+    "encumbrances": [],
+    "geo_coordinates": {
+      "lat": 26.98,
+      "lng": 80.92
+    },
+    "validation_report": {
+      "status": "VALIDATED",
+      "rules_total": 4,
+      "rule_results": [
+        {
+          "rule": "RULE_KHASRA_SYNTAX",
+          "passed": true,
+          "message": "Valid Khasra format",
+          "severity": "INFO",
+          "description": "Standard Khasra/Survey/Gat number format validation"
+        },
+        {
+          "rule": "RULE_OWNER_SHARES_100_PCT",
+          "value": "100.0%",
+          "passed": true,
+          "message": "Co-owner shares sum perfectly to 100.0%",
+          "severity": "INFO",
+          "description": "Co-owner share fraction sum matches 100%"
+        },
+        {
+          "rule": "RULE_AREA_CONSISTENCY",
+          "passed": true,
+          "message": "Valid parcel area: 2.12 Hectares (~2.12 Hectares)",
+          "severity": "INFO",
+          "description": "Parcel area threshold and unit sanity check",
+          "standardized_hectares": 2.12
+        },
+        {
+          "rule": "RULE_DUPLICATE_CHECK",
+          "passed": true,
+          "message": "No duplicate record found in LRMS database",
+          "severity": "INFO",
+          "description": "Cross-database duplicate parcel detection"
+        }
+      ],
+      "rules_passed": 4,
+      "status_label": "Fully Validated",
+      "confidence_summary": {
+        "is_high_quality": true,
+        "overall_confidence": 92.0,
+        "low_confidence_fields": []
+      }
+    },
+    "landowners": [
+      {
+        "id": 6,
+        "record_id": "LR-UP-2026-003",
+        "name": "Ram Autar s/o Shiv Prasad",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ]
+  },
+  {
+    "id": "LR-BR-2026-004",
+    "ulpin": "ULPIN-BI-26004",
+    "title": "जमाबंदी पंजी (Jamabandi Register)",
+    "document_type": "Jamabandi Register",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Dhanarua",
+    "village": "Bhelura",
+    "pargana": "Phulwari",
+    "patwari_halka": "Karamchari Halka 05",
+    "khasra_number": "735",
+    "khata_number": "92",
+    "khewat_number": "04",
+    "area_value": 0.65,
+    "area_unit": "Hectares",
+    "standardized_hectares": 0.65,
+    "land_classification": "Dhanhar (Paddy Cultivation)",
+    "soil_type": "Clayey Silt",
+    "primary_owner": "Arvind Kumar Singh s/o Ram Ekbal Singh",
+    "verification_status": "VALIDATED",
+    "verified_by": "Tehsildar / SDO",
+    "geom": null,
+    "gis_parcel": {
+      "center": [
+        25.4,
+        85.18
+      ],
+      "coordinates": [
+        [
+          25.400011,
+          85.180345
+        ],
+        [
+          25.399642,
+          85.180309
+        ],
+        [
+          25.399725,
+          85.179702
+        ],
+        [
+          25.399853,
+          85.179692
+        ],
+        [
+          25.400241,
+          85.179586
+        ],
+        [
+          25.400011,
+          85.180345
+        ]
+      ],
+      "area_hectares": 0.65,
+      "area_sq_meters": 6500.0,
+      "adjacent_parcels": [
+        {
+          "center": [
+            25.400755,
+            85.180457
+          ],
+          "khasra_no": "735/1",
+          "coordinates": [
+            [
+              25.400821,
+              85.180828
+            ],
+            [
+              25.400675,
+              85.180776
+            ],
+            [
+              25.400438,
+              85.180689
+            ],
+            [
+              25.400584,
+              85.180149
+            ],
+            [
+              25.400821,
+              85.180828
+            ]
+          ]
+        },
+        {
+          "center": [
+            25.399427,
+            85.18071
+          ],
+          "khasra_no": "736",
+          "coordinates": [
+            [
+              25.399717,
+              85.180918
+            ],
+            [
+              25.399058,
+              85.180717
+            ],
+            [
+              25.39916,
+              85.180374
+            ],
+            [
+              25.399287,
+              85.180385
+            ],
+            [
+              25.399717,
+              85.180918
+            ]
+          ]
+        }
+      ],
+      "perimeter_meters": 328.7
+    },
+    "confidence_scores": {
+      "area": 0.88,
+      "state": 0.97,
+      "tehsil": 0.91,
+      "village": 0.9,
+      "district": 0.95,
+      "co_owners": [],
+      "mutations": 0.8,
+      "landowners": 0.87,
+      "encumbrances": [],
+      "khata_number": 0.89,
+      "khasra_number": 0.92,
+      "primary_owner": 0.89,
+      "classification": 0.85,
+      "geo_coordinates": {
+        "lat": 25.4,
+        "lng": 85.18
+      },
+      "validation_report": {
+        "status": "VALIDATED",
+        "rules_total": 4,
+        "rule_results": [
+          {
+            "rule": "RULE_KHASRA_SYNTAX",
+            "passed": true,
+            "message": "Valid Khasra format",
+            "severity": "INFO",
+            "description": "Standard Khasra/Survey/Gat number format validation"
+          },
+          {
+            "rule": "RULE_OWNER_SHARES_100_PCT",
+            "value": "100.0%",
+            "passed": true,
+            "message": "Co-owner shares sum perfectly to 100.0%",
+            "severity": "INFO",
+            "description": "Co-owner share fraction sum matches 100%"
+          },
+          {
+            "rule": "RULE_AREA_CONSISTENCY",
+            "passed": true,
+            "message": "Valid parcel area: 0.65 Hectares (~0.65 Hectares)",
+            "severity": "INFO",
+            "description": "Parcel area threshold and unit sanity check",
+            "standardized_hectares": 0.65
+          },
+          {
+            "rule": "RULE_DUPLICATE_CHECK",
+            "passed": true,
+            "message": "No duplicate record found in LRMS database",
+            "severity": "INFO",
+            "description": "Cross-database duplicate parcel detection"
+          }
+        ],
+        "rules_passed": 4,
+        "status_label": "Fully Validated",
+        "confidence_summary": {
+          "is_high_quality": true,
+          "overall_confidence": 89.4,
+          "low_confidence_fields": []
+        }
+      }
+    },
+    "created_at": "2026-09-08T09:15:05.360159+00:00",
+    "last_updated_at": "2026-09-08T12:45:23+00:00",
+    "land_type": "Dhanhar (Paddy Cultivation)",
+    "co_owners": [
+      {
+        "id": 7,
+        "record_id": "LR-BR-2026-004",
+        "name": "Arvind Kumar Singh s/o Ram Ekbal Singh",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ],
+    "encumbrances": [],
+    "geo_coordinates": {
+      "lat": 25.4,
+      "lng": 85.18
+    },
+    "validation_report": {
+      "status": "VALIDATED",
+      "rules_total": 4,
+      "rule_results": [
+        {
+          "rule": "RULE_KHASRA_SYNTAX",
+          "passed": true,
+          "message": "Valid Khasra format",
+          "severity": "INFO",
+          "description": "Standard Khasra/Survey/Gat number format validation"
+        },
+        {
+          "rule": "RULE_OWNER_SHARES_100_PCT",
+          "value": "100.0%",
+          "passed": true,
+          "message": "Co-owner shares sum perfectly to 100.0%",
+          "severity": "INFO",
+          "description": "Co-owner share fraction sum matches 100%"
+        },
+        {
+          "rule": "RULE_AREA_CONSISTENCY",
+          "passed": true,
+          "message": "Valid parcel area: 0.65 Hectares (~0.65 Hectares)",
+          "severity": "INFO",
+          "description": "Parcel area threshold and unit sanity check",
+          "standardized_hectares": 0.65
+        },
+        {
+          "rule": "RULE_DUPLICATE_CHECK",
+          "passed": true,
+          "message": "No duplicate record found in LRMS database",
+          "severity": "INFO",
+          "description": "Cross-database duplicate parcel detection"
+        }
+      ],
+      "rules_passed": 4,
+      "status_label": "Fully Validated",
+      "confidence_summary": {
+        "is_high_quality": true,
+        "overall_confidence": 89.4,
+        "low_confidence_fields": []
+      }
+    },
+    "landowners": [
+      {
+        "id": 7,
+        "record_id": "LR-BR-2026-004",
+        "name": "Arvind Kumar Singh s/o Ram Ekbal Singh",
+        "relation": "Self / Primary Holder",
+        "share_fraction": "1/1",
+        "share_percentage": 100.0,
+        "aadhaar_masked": "XXXX-XXXX-8921",
+        "gender": "M",
+        "caste_category": "General"
+      }
+    ]
+  }
+]
