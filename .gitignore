@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+backend/venv/
+env/
+.env.local
+backend/.env
+frontend/.env
+
+# Python Bytecode & Cache
+__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Build & Dist Outputs
+dist/
+frontend/dist/
+build/
+*.egg-info/
+
+# Runtime Uploads & Processed Storage (Preserve directory structure via .gitkeep)
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/processed/*
+!backend/processed/.gitkeep
+
+# IDE & System Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Antigravity / Gemini temporary logs
+.gemini/
+*.log
